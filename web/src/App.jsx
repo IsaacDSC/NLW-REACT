@@ -1,17 +1,11 @@
 import React from 'react';
+import './styles/global.css'
 
-function Titulo(){
-    return(
-        <h1>Hello Word</h1>
-    )
-}
+import Routes from './routes'
 
 function App() {
-    return (<>
-        <div className = "App" >
-        <Titulo/>
-        </div >
-        </>
+    return (
+        <Routes/>
     );
 }
 

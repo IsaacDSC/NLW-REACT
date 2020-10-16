@@ -1,10 +1,9 @@
 import React from 'react'
 import { BrowserRouter, Route, Switch } from 'react-router-dom'
-import Home from './views/home'
-import Login from './views/Login'
+import Home from './pages/home'
+import Login from './pages/map/map'
 
 export default function Rotes() {
-
     return (
          < BrowserRouter >
             <Switch >
