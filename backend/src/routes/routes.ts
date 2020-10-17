@@ -1,10 +1,9 @@
-import express from 'express'
-const router = express.Router()
+import {Router} from 'express'
+import ControlerOrfanatos from '../controllers/ControlerOrfanatos'
+const router = Router()
 
 
-router.get('/', (req, res)=>{
-    res.send('Hello Word')
-})
+router.get('/', ControlerOrfanatos.index)
 
 
-module.exports = router
+export default router

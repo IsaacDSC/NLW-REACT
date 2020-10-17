@@ -1,4 +1,10 @@
-import {createConnection} from 'typeorm'
+import mysql from 'mysql'
 
-createConnection()
+export const connection = mysql.createConnection({
+    host: 'localhost',
+    user: 'dev',
+    password: 'secret',
+    database: 'nlw'
+})
+
 
