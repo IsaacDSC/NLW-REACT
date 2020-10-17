@@ -1,0 +1,126 @@
+#orfanatos .capa{
+    width: 100vw;
+    height: 50vh;
+}
+
+#orfanatos .card-body ul{
+    margin-left: 25%;
+}
+
+#orfanatos .card-body ul li{
+    display: inline;
+    margin-left: 15px;
+}
+
+#orfanatos .card-body ul li img{
+    border-radius: 20%;
+}
+#orfanatos .mb-3 .card-body h1{
+    color: #4D6F80;
+    font-size: 54px;
+    line-height: 54px;
+    margin-left: 25%;
+    margin-top: 50px;
+
+}
+
+#orfanatos .mb-3 .card-body p{
+    color: #4D6F80;
+    font-size: 18px;
+    line-height: 28px;
+    margin-left: 25%;
+    margin-top: 20px;
+    max-width: 50%;
+}
+
+#orfanatos .mb-3 .card-body .map{
+    background-color: grey;
+
+    height: 50vh;
+    width: 50vw;
+    border-radius: 20px;
+    margin-left: 25%;
+    margin-top: 90px;
+}
+
+#orfanatos .mb-3 .card-body hr{
+    height: 2px;
+    width: 50vw;
+    margin-left: 25%;
+    margin-top: 70px;
+
+    background: #FFFFFF;
+    border: 1px solid #D3E2E5;
+    box-sizing: border-box;
+    border: 1px solid #D3E2E6;
+}
+
+#orfanatos .mb-3 .card-body .instrutions h2{
+    color: #4D6F80;
+    font-size: 46px;
+    line-height: 46px;
+    margin-left: 25%;
+    margin-top: 70px;
+    max-width: 50%;
+}
+
+#orfanatos .mb-3 .card-body .instrutions p{
+    color: #4D6F80;
+    font-size: 18px;
+    line-height: 28px;
+    margin-left: 25%;
+    margin-top: 20px;
+    max-width: 50%;
+}
+
+#orfanatos .mb-3 .card-body .instrutions .row{
+    margin-left: 24%;
+}
+#orfanatos .mb-3 .card-body .instrutions .row .colOne{
+    margin-right: 10px;
+    width: 25vw;
+    height: 190px;
+    background: linear-gradient(149.97deg, #E6F7FB 8.13%, #FFFFFF 92.67%);
+    border: 1px solid #B3DAE2;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+#orfanatos .mb-3 .card-body .instrutions .row .colTow{
+    margin-left: 8px;
+    width: 25vw;
+    height: 190px;
+    background: linear-gradient(154.16deg, #EDFFF6 7.85%, #FFFFFF 91.03%);
+/* Green Low */
+
+border: 1px solid #A1E9C5;
+box-sizing: border-box;
+border-radius: 20px;
+}
+
+#orfanatos .mb-3 .card-body .instrutions .row .col .hr{
+    color: #5C8599;
+    font-size: 18px;
+    line-height: 28px;
+    margin-left: 25%;
+    margin-top: 20px;
+    max-width: 50%;
+}
+#orfanatos .mb-3 .card-body .instrutions .row .col .info{
+        color: #37C77F;
+    font-size: 18px;
+    line-height: 28px;
+    margin-left: 25%;
+    margin-top: 20px;
+    max-width: 50%;
+}
+#orfanatos .mb-3 .card-body .instrutions button{
+    width: 50vw;
+    height: 64px;
+    margin-left: 25%;
+    margin-top: 40px;
+
+    background: #3CDC8C;
+    border-radius: 20px;
+    border: none;
+    color: white;
+}
