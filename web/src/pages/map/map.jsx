@@ -30,7 +30,7 @@ export default function Login() {
 
 
 
-                <Link to="" className="create-orphanage"><FiPlus size={32} color="#fff" /></Link>
+                <Link to="/" className="create-orphanage"><FiPlus size={32} color="#fff" /></Link>
             </div>
 
         </>

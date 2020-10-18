@@ -6,4 +6,5 @@ const router = Router()
 router.get('/', ControlerOrfanatos.index)
 
 
+
 export default router

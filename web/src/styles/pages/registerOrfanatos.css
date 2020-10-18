@@ -1,0 +1,12 @@
+#registerOrfanatos aside{
+    position: absolute;
+    background-color: #12AFCB;
+    width: 96px;
+    height: 100vh;
+
+}
+
+#register aside .logo{
+    position: fixed;
+    left: 20%;
+}
