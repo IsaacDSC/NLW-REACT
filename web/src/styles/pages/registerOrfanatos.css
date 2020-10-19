@@ -1,12 +1,40 @@
+#registerOrfanatos .container, .card{
+    padding: 10%;
+    display: flex;
+    width: 90vw;
+    height: 100vh;
+    margin-left:8.5%;
+    background-color: #ebf2f5;
+}
+#registerOrfanatos .container, .card h2{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 34px;
+    color: #4D6F80;
+
+}
+
 #registerOrfanatos aside{
     position: absolute;
     background-color: #12AFCB;
     width: 96px;
     height: 100vh;
 
+
 }
 
-#register aside .logo{
-    position: fixed;
-    left: 20%;
+#registerOrfanatos aside .logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#registerOrfanatos aside .btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70vh;
 }

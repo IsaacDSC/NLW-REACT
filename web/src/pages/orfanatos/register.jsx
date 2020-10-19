@@ -9,21 +9,23 @@ export default function registerOrfanatos() {
         <>
             <div id="registerOrfanatos">
                 <aside>
-                    <Link to='/' className="logo">
-                        <img src={Logo} alt="logotipo" />
-                    </Link>
+                    <div className="logo">
+                        <Link to='/' className="logo">
+                            <img src={Logo} alt="logotipo" />
+                        </Link>
+                    </div>
+                    <div className="btn">
+                        <Link to='/'>
+                            <FiArrowLeft className="preview" size={32} color="#fff" />
+                        </Link>
+                    </div>
 
-                    <Link to='/'>
-                    <FiArrowLeft size={32} color="#fff" />
-                    </Link>
                 </aside>
 
                 <div className="container">
-                    <div className="card">
-                        <div className="card-body">
                             <h2>Dados</h2>
-                            <h1>ASDASD</h1>
-                        </div>
+                            <hr/>
+                        <div className="card-body">
                     </div>
                 </div>
 
